@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Phone, Clock, Facebook, Instagram, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
@@ -91,14 +91,7 @@ export default function Footer() {
                 <span className="font-medium">053-3464288</span>
                 <Phone className="w-5 h-5" />
               </a>
-              <a href="mailto:info@eidan-tax.co.il" className="flex items-center gap-3 justify-end text-gray-400 hover:text-white transition-colors break-all">
-                <span className="font-medium">info@eidan-tax.co.il</span>
-                <Mail className="w-5 h-5 flex-shrink-0" />
-              </a>
-              <div className="flex items-center gap-3 justify-end text-gray-400">
-                <span>רחוב הארבעה 7, תל אביב</span>
-                <MapPin className="w-5 h-5 flex-shrink-0" />
-              </div>
+
               <div className="flex items-center gap-3 justify-end text-gray-400">
                 <div className="text-right">
                   <div>ראשון - חמישי: 9:00 - 18:00</div>

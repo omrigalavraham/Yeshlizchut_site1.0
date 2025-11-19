@@ -41,25 +41,25 @@ export default function About() {
               <div className="bg-gradient-to-l from-blue-600/5 to-blue-600/10 border-r-4 border-blue-600 pr-4 md:pr-8 py-4 md:py-6 my-6">
                 <h3 className="text-xl md:text-2xl font-bold text-slate-900 mb-4">התהליך שלנו:</h3>
                 <p className="text-base md:text-lg text-slate-900 leading-relaxed font-medium space-y-2">
-                  ✓ <span className="font-bold">בדיקה מקיפה ומקצועית</span> של כל נקודות הזיכוי, ניכויים וזכויות שמגיעות לכם – כולל אלו שלא ידעתם עליהן<br/>
-                  ✓ <span className="font-bold">איסוף והכנת כל המסמכים</span> – אנחנו דואגים לכל הפרטים הקטנים, אתם לא צריכים ללכת לרו"ח או לטפל בניירת<br/>
-                  ✓ <span className="font-bold">הגשה מסודרת למס הכנסה</span> עם כל האישורים והמסמכים הנדרשים<br/>
-                  ✓ <span className="font-bold">מעקב אישי וצמוד</span> עד שהכסף מגיע בפועל לחשבון הבנק שלכם<br/>
+                  ✓ <span className="font-bold">בדיקה מקיפה ומקצועית</span> של כל נקודות הזיכוי, ניכויים וזכויות שמגיעות לכם – כולל אלו שלא ידעתם עליהן<br />
+                  ✓ <span className="font-bold">איסוף והכנת כל המסמכים</span> – אנחנו דואגים לכל הפרטים הקטנים, אתם לא צריכים ללכת לרו"ח או לטפל בניירת<br />
+                  ✓ <span className="font-bold">הגשה מסודרת למס הכנסה</span> עם כל האישורים והמסמכים הנדרשים<br />
+                  ✓ <span className="font-bold">מעקב אישי וצמוד</span> עד שהכסף מגיע בפועל לחשבון הבנק שלכם<br />
                   ✓ <span className="font-bold">תמיכה מלאה</span> בכל שאלה או בירור מול רשויות המס
                 </p>
               </div>
 
               <div className="bg-slate-50 border border-slate-200 rounded-xl pr-4 md:pr-8 py-4 md:py-8 my-6">
-                <h3 className="text-xl md:text-2xl font-bold text-slate-900 mb-4">מי אני?</h3>
+                <h3 className="text-xl md:text-2xl font-bold text-slate-900 mb-4">מי אנחנו ?</h3>
                 <p className="text-base md:text-lg text-slate-800 leading-relaxed mb-4">
-                  <span className="font-bold text-blue-700 text-xl">עידן</span> – יועץ זכויות כלכליות ומומחה בתחום החזרי המס עם ניסיון מוכח של שנים בהחזרת מיליוני שקלים לשכירים, פנסיונרים ועצמאים ברחבי הארץ.
+                  חברתנו מתמחת בתחום החזרי המס עם ניסיון מוכח של שנים בהחזרת מאות אלפי שקלים לשכירים, פנסיונרים ועצמאים ברחבי הארץ.
                 </p>
                 <p className="text-base md:text-lg text-slate-800 leading-relaxed mb-4">
-                  אני עובד מול רשויות המס באופן יומיומי ומכיר לעומק את המערכת, את הזכויות, ואת הדרכים החוקיות למקסם את ההחזרים.
-                  <span className="font-semibold text-slate-900"> כל לקוח מקבל ממני יחס אישי, מענה זמין, ושקיפות מלאה בכל שלב</span> – מהפגישה הראשונה ועד קבלת הכסף בפועל.
+                  אנו עובדים מול רשויות המס באופן יומיומי ומכירים לעומק את המערכת, את הזכויות, ואת הדרכים החוקיות למקסם את ההחזרים.
+                  <span className="font-semibold text-slate-900"> כל לקוח מקבל מאיתנו יחס אישי, מענה זמין, ושקיפות מלאה בכל שלב</span> – מתחילת התהליך ועד קבלת הכסף בפועל.
                 </p>
                 <p className="text-base md:text-lg text-slate-800 leading-relaxed">
-                  <span className="font-bold text-blue-700">העיקרון שלי פשוט:</span> אמינות מוחלטת, עבודה מקצועית, וקבלת התוצאות המקסימליות שמגיעות לכם על פי חוק.
+                  <span className="font-bold text-blue-700">העיקרון שלנו פשוט:</span> אמינות מוחלטת, עבודה מקצועית, וקבלת התוצאות המקסימליות שמגיעות לכם על פי חוק.
                 </p>
               </div>
 
