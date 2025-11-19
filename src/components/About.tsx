@@ -52,7 +52,7 @@ export default function About() {
               <div className="bg-slate-50 border border-slate-200 rounded-xl pr-4 md:pr-8 py-4 md:py-8 my-6">
                 <h3 className="text-xl md:text-2xl font-bold text-slate-900 mb-4">מי אנחנו ?</h3>
                 <p className="text-base md:text-lg text-slate-800 leading-relaxed mb-4">
-                  חברתנו מתמחת בתחום החזרי המס עם ניסיון מוכח של שנים בהחזרת מאות אלפי שקלים לשכירים, פנסיונרים ועצמאים ברחבי הארץ.
+                  חברתנו מתמחה בתחום החזרי המס עם ניסיון מוכח של שנים בהחזרת מאות אלפי שקלים לשכירים, פנסיונרים ועצמאים ברחבי הארץ.
                 </p>
                 <p className="text-base md:text-lg text-slate-800 leading-relaxed mb-4">
                   אנו עובדים מול רשויות המס באופן יומיומי ומכירים לעומק את המערכת, את הזכויות, ואת הדרכים החוקיות למקסם את ההחזרים.
