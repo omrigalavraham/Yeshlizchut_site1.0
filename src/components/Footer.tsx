@@ -87,10 +87,7 @@ export default function Footer() {
           <div className="text-right space-y-6">
             <h3 className="text-xl font-bold mb-6">צור קשר</h3>
             <div className="space-y-4">
-              <a href="tel:053-3464288" className="flex items-center gap-3 justify-end text-gray-400 hover:text-white transition-colors">
-                <span className="font-medium">053-3464288</span>
-                <Phone className="w-5 h-5" />
-              </a>
+
               <a href="tel:054-4499787" className="flex items-center gap-3 justify-end text-gray-400 hover:text-white transition-colors">
                 <span className="font-medium">054-4499787</span>
                 <Phone className="w-5 h-5" />
