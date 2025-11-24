@@ -23,6 +23,7 @@ export default function ContactForm({ onClose }: ContactFormProps) {
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSuccess, setIsSuccess] = useState(false);
 
   const validateName = (name: string) => {
     if (name.trim().length < 2) {
@@ -93,10 +94,8 @@ export default function ContactForm({ onClose }: ContactFormProps) {
     )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
-        alert(`תודה ${formData.name}! פנייתך התקבלה בהצלחה ונחזור אליך בהקדם.`);
-        setFormData({ name: '', phone: '', email: '', type: 'employee', consent: false });
+        setIsSuccess(true);
         setErrors({ name: '', phone: '', consent: '' });
-        onClose();
       })
       .catch((err) => {
         console.error('FAILED...', err);
@@ -106,6 +105,39 @@ export default function ContactForm({ onClose }: ContactFormProps) {
         setIsSubmitting(false);
       });
   };
+
+  if (isSuccess) {
+    return (
+      <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 p-4 animate-fade-in">
+        <div className="bg-white rounded-3xl shadow-2xl max-w-md w-full p-8 relative animate-slide-up text-center">
+          <button
+            onClick={onClose}
+            className="absolute left-4 top-4 text-gray-400 hover:text-gray-600 transition-colors"
+          >
+            <X className="w-6 h-6" />
+          </button>
+
+          <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+            <CheckCircle className="w-10 h-10 text-green-600" />
+          </div>
+
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">הפרטים התקבלו בהצלחה!</h2>
+          <p className="text-gray-600 mb-8">
+            תודה {formData.name}, קיבלנו את הפנייה שלך.
+            <br />
+            צוות המומחים שלנו יעבור על הפרטים ויחזור אליך בהקדם האפשרי.
+          </p>
+
+          <button
+            onClick={onClose}
+            className="w-full bg-blue-600 text-white py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors"
+          >
+            סגירה
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 p-4 animate-fade-in">
