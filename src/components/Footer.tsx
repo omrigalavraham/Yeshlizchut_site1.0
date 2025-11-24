@@ -1,4 +1,4 @@
-import { Phone, Clock, Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Phone, Mail, Clock, Facebook, Instagram, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
@@ -90,6 +90,14 @@ export default function Footer() {
               <a href="tel:053-3464288" className="flex items-center gap-3 justify-end text-gray-400 hover:text-white transition-colors">
                 <span className="font-medium">053-3464288</span>
                 <Phone className="w-5 h-5" />
+              </a>
+              <a href="tel:054-4499787" className="flex items-center gap-3 justify-end text-gray-400 hover:text-white transition-colors">
+                <span className="font-medium">054-4499787</span>
+                <Phone className="w-5 h-5" />
+              </a>
+              <a href="mailto:support@yesh-li-zchut.co.il" className="flex items-center gap-3 justify-end text-gray-400 hover:text-white transition-colors">
+                <span className="font-medium">support@yesh-li-zchut.co.il</span>
+                <Mail className="w-5 h-5" />
               </a>
 
               <div className="flex items-center gap-3 justify-end text-gray-400">
