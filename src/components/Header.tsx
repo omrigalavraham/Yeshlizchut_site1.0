@@ -34,18 +34,18 @@ export default function Header() {
         }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-28 gap-6">
+        <div className="flex items-center justify-between h-28 gap-6 relative">
           {/* Left side - Logo/Brand Name */}
           <div className="flex items-center gap-4">
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="md:hidden p-2 text-gray-700 hover:text-blue-600 transition-colors"
+              className="md:hidden p-2 text-gray-700 hover:text-blue-600 transition-colors relative z-10"
               aria-label={isMobileMenuOpen ? "סגור תפריט ניווט" : "פתח תפריט ניווט"}
               aria-expanded={isMobileMenuOpen}
             >
               {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
-            <div className="text-left flex items-center gap-2">
+            <div className="text-left flex items-center gap-2 absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0">
               <img src={logo} alt="יש לי זכות" className="h-24 w-auto object-contain" />
             </div>
           </div>
