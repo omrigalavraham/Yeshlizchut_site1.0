@@ -163,7 +163,7 @@ const ReviewsCarousel = () => {
                     }}
                   >
                     <img
-                      src={`/photo/${image}`}
+                      src={`/photo/${encodeURIComponent(image)}`}
                       alt={`ביקורת לקוח ${index + 1}`}
                       className="w-full h-full object-contain bg-gray-50"
                       loading={position === 0 ? 'eager' : 'lazy'}
