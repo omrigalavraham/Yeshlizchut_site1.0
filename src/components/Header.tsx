@@ -34,7 +34,7 @@ export default function Header() {
         }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20 gap-6">
+        <div className="flex items-center justify-between h-24 gap-6">
           {/* Left side - Logo/Brand Name */}
           <div className="flex items-center gap-4">
             <button
@@ -46,7 +46,7 @@ export default function Header() {
               {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
             <div className="text-left flex items-center gap-2">
-              <img src={logo} alt="יש לי זכות" className="h-12 w-auto object-contain" />
+              <img src={logo} alt="יש לי זכות" className="h-20 w-auto object-contain" />
             </div>
           </div>
 
