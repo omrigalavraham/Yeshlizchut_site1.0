@@ -8,13 +8,12 @@ export default function WhatsAppButton() {
   return (
     <div className="fixed bottom-6 left-6 z-50 flex items-center justify-center group">
       
-      {/* שכבת האנימציה (Ping)
-        הוספתי style={{ animationDuration: '3s' }} כדי להאט את הקצב.
-        אפשר לשנות את ה-'3s' לכל מספר אחר כדי לשלוט במהירות.
+      {/* שיניתי את ה-animationDuration ל-5 שניות (5s).
+        זה יגרום לטבעת להתרחב לאט מאוד.
       */}
       <span 
         className="absolute inline-flex h-full w-full rounded-full bg-[#25D366] opacity-75 animate-ping"
-        style={{ animationDuration: '3s' }}
+        style={{ animationDuration: '5s' }}
       ></span>
 
       {/* הכפתור עצמו */}
