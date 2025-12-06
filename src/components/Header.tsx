@@ -1,5 +1,5 @@
 import { Menu, X } from 'lucide-react';
-import logo from '../assets/logo_yeshlizchut.jpg';
+import logo from '../assets/logo_yeshlizchut.jpeg';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
