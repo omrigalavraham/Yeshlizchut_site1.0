@@ -10,6 +10,8 @@ import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import AccessibilityWidget from './components/AccessibilityWidget';
+import CookieConsent from './components/CookieConsent';
+import ReviewsCarousel from './components/ReviewsCarousel';
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
         <NoPay />
         <HowItWorks />
         <Benefits />
+        <ReviewsCarousel />
         <About />
         <SocialProof />
         <FAQ />
@@ -34,6 +37,7 @@ function App() {
       <Footer />
       <WhatsAppButton />
       <AccessibilityWidget />
+      <CookieConsent />
     </div>
   );
 }
