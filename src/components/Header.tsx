@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Plus } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import logo from '../assets/logo_yeshlizchut.jpeg';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -29,9 +30,8 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-200/50' : 'bg-white/80 backdrop-blur-md'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-200/50' : 'bg-white/80 backdrop-blur-md'
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20 gap-6">
@@ -46,8 +46,7 @@ export default function Header() {
               {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
             <div className="text-left flex items-center gap-2">
-              <div className="text-2xl md:text-3xl font-black bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 bg-clip-text text-transparent drop-shadow-sm">יש לי זכות</div>
-              <Plus className="w-5 h-5 md:w-6 md:h-6 text-blue-600" strokeWidth={3} />
+              <img src={logo} alt="יש לי זכות" className="h-12 w-auto object-contain" />
             </div>
           </div>
 
