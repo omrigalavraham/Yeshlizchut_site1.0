@@ -1,10 +1,13 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import { Link, useLocation } from 'react-router-dom';
 import logo from '../assets/logo_yeshlizchut.jpeg';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -15,6 +18,10 @@ export default function Header() {
   }, []);
 
   const scrollToSection = (id: string) => {
+    if (!isHomePage) {
+      window.location.href = '/#' + id;
+      return;
+    }
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
@@ -55,6 +62,9 @@ export default function Header() {
             <button onClick={() => scrollToSection('contact')} aria-label="מעבר לסעיף צור קשר" className="text-slate-700 hover:text-blue-600 font-semibold text-base transition-all duration-200 relative after:absolute after:bottom-0 after:right-0 after:w-0 after:h-0.5 after:bg-blue-600 hover:after:w-full after:transition-all after:duration-300">
               צור קשר
             </button>
+            <Link to="/articles" aria-label="מעבר לדף המאמרים" className="text-slate-700 hover:text-blue-600 font-semibold text-base transition-all duration-200 relative after:absolute after:bottom-0 after:right-0 after:w-0 after:h-0.5 after:bg-blue-600 hover:after:w-full after:transition-all after:duration-300">
+              מאמרים
+            </Link>
             <button onClick={() => scrollToSection('services')} aria-label="מעבר לסעיף השירותים שלנו" className="text-slate-700 hover:text-blue-600 font-semibold text-base transition-all duration-200 relative after:absolute after:bottom-0 after:right-0 after:w-0 after:h-0.5 after:bg-blue-600 hover:after:w-full after:transition-all after:duration-300">
               שירותים
             </button>
@@ -82,6 +92,9 @@ export default function Header() {
             <button onClick={() => scrollToSection('services')} className="block w-full text-right py-3 text-slate-700 hover:text-blue-600 font-medium transition-colors">
               שירותים
             </button>
+            <Link to="/articles" onClick={() => setIsMobileMenuOpen(false)} className="block w-full text-right py-3 text-slate-700 hover:text-blue-600 font-medium transition-colors">
+              מאמרים
+            </Link>
             <button onClick={() => scrollToSection('contact')} className="block w-full text-right py-3 text-slate-700 hover:text-blue-600 font-medium transition-colors">
               צור קשר
             </button>
