@@ -383,24 +383,28 @@ export default function TermsOfService() {
                     </div>
                     <div>
                       <p className="font-bold">יש לי זכות</p>
-                      <p className="text-sm">ח.פ: 515123456</p>
+                      <p className="text-sm">ע.מ: 206982605</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-3 mr-10">
                     <span className="text-blue-600 text-xl">✉</span>
-                    <a href="mailto:info@eidan-tax.co.il" className="text-blue-600 hover:text-blue-700 font-semibold">
-                      info@eidan-tax.co.il
+                    <a href="mailto:support@yesh-li-zchut.co.il" className="text-blue-600 hover:text-blue-700 font-semibold">
+                      support@yesh-li-zchut.co.il
                     </a>
                   </div>
                   <div className="flex items-center gap-3 mr-10">
                     <span className="text-blue-600 text-xl">📞</span>
-                    <a href="tel:0533464288" className="text-blue-600 hover:text-blue-700 font-semibold">
-                      053-3464288
+                    <a href="tel:0544499787" className="text-blue-600 hover:text-blue-700 font-semibold">
+                      054-4499787
+                    </a>
+                    <span className="text-slate-400 mx-2">|</span>
+                    <a href="tel:0544455861" className="text-blue-600 hover:text-blue-700 font-semibold">
+                      054-4455861
                     </a>
                   </div>
                   <div className="flex items-start gap-3 mr-10">
                     <span className="text-blue-600 text-xl flex-shrink-0">📍</span>
-                    <p>רחוב הארבעה 7, תל אביב, ישראל</p>
+                    <p>העצמאות 91, קרית אתא</p>
                   </div>
                   <div className="flex items-center gap-3 mr-10">
                     <span className="text-blue-600 text-xl">🕐</span>

@@ -235,11 +235,13 @@ export default function PrivacyPolicy() {
                 <ul className="space-y-2">
                   <li className="flex items-center gap-2">
                     <Mail className="w-4 h-4" />
-                    <a href="mailto:privacy@eidan-tax.co.il" className="underline hover:text-blue-200">privacy@eidan-tax.co.il</a>
+                    <a href="mailto:support@yesh-li-zchut.co.il" className="underline hover:text-blue-200">support@yesh-li-zchut.co.il</a>
                   </li>
                   <li className="flex items-center gap-2">
                     <Phone className="w-4 h-4" />
-                    <a href="tel:0533464288" className="underline hover:text-blue-200">053-3464288</a>
+                    <a href="tel:0544499787" className="underline hover:text-blue-200">054-4499787</a>
+                    <span className="mx-2">|</span>
+                    <a href="tel:0544455861" className="underline hover:text-blue-200">054-4455861</a>
                   </li>
                 </ul>
                 <p className="text-sm mt-4 text-blue-100">
@@ -294,19 +296,23 @@ export default function PrivacyPolicy() {
                   </div>
                   <div className="flex items-center gap-3 mr-10">
                     <Mail className="w-5 h-5 text-blue-600 flex-shrink-0" />
-                    <a href="mailto:privacy@eidan-tax.co.il" className="text-blue-600 hover:text-blue-700 font-semibold">
-                      privacy@eidan-tax.co.il
+                    <a href="mailto:support@yesh-li-zchut.co.il" className="text-blue-600 hover:text-blue-700 font-semibold">
+                      support@yesh-li-zchut.co.il
                     </a>
                   </div>
                   <div className="flex items-center gap-3 mr-10">
                     <Phone className="w-5 h-5 text-blue-600 flex-shrink-0" />
-                    <a href="tel:0533464288" className="text-blue-600 hover:text-blue-700 font-semibold">
-                      053-3464288
+                    <a href="tel:0544499787" className="text-blue-600 hover:text-blue-700 font-semibold">
+                      054-4499787
+                    </a>
+                    <span className="text-slate-400 mx-2">|</span>
+                    <a href="tel:0544455861" className="text-blue-600 hover:text-blue-700 font-semibold">
+                      054-4455861
                     </a>
                   </div>
                   <div className="flex items-start gap-3 mr-10">
                     <span className="text-blue-600 text-xl flex-shrink-0">📍</span>
-                    <p>רחוב הארבעה 7, תל אביב</p>
+                    <p>העצמאות 91, קרית אתא</p>
                   </div>
                 </div>
               </div>

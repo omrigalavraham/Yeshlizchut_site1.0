@@ -252,19 +252,23 @@ export default function AccessibilityStatement() {
                   </div>
                   <div className="flex items-center gap-3 mr-10">
                     <Mail className="w-5 h-5 text-blue-600 flex-shrink-0" />
-                    <a href="mailto:accessibility@eidan-tax.co.il" className="text-blue-600 hover:text-blue-700 font-semibold">
-                      accessibility@eidan-tax.co.il
+                    <a href="mailto:support@yesh-li-zchut.co.il" className="text-blue-600 hover:text-blue-700 font-semibold">
+                      support@yesh-li-zchut.co.il
                     </a>
                   </div>
                   <div className="flex items-center gap-3 mr-10">
                     <Phone className="w-5 h-5 text-blue-600 flex-shrink-0" />
-                    <a href="tel:0533464288" className="text-blue-600 hover:text-blue-700 font-semibold">
-                      053-3464288
+                    <a href="tel:0544499787" className="text-blue-600 hover:text-blue-700 font-semibold">
+                      054-4499787
+                    </a>
+                    <span className="text-slate-400 mx-2">|</span>
+                    <a href="tel:0544455861" className="text-blue-600 hover:text-blue-700 font-semibold">
+                      054-4455861
                     </a>
                   </div>
                   <div className="flex items-start gap-3 mr-10">
                     <span className="text-blue-600 text-xl flex-shrink-0">📍</span>
-                    <p>רחוב הארבעה 7, תל אביב</p>
+                    <p>העצמאות 91, קרית אתא</p>
                   </div>
                 </div>
                 <p className="text-slate-700 text-sm mt-4">
